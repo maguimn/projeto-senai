@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+
+.larguraPadrao {
+    max-width: 1440px;
+}
+
+nav {
+    background: black;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navPrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*Eixo Y */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navImg {
+    width: 100px;
+}
+
+.navPrincipal img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+.navSearch input {
+    width: 35vw;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.navButtons {
+    width: 100px;
+}
+
+.navButtons i,
+.navButtons p {
+    font-size: 20px;
+    color: white;
+}
+
+.navButtons i {
+    font-size: 30px;
+}
+
+.navButtons button {
+    border: 0px;
+    background-color: black;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    padding: 31px 25px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/* Main */
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 200px;
+}
+
+
+/* Page Tenis */
+
+.title-page {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    height: 100px;
+    font-size: 49px;
+}
+
+
+/* Produtos */
+
+.grid-container {
+    display: grid;
+    grid-gap: 50px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 150px;
+    width:100%
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.price {
+    color: black;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.nome-produto {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+
+.card img {
+    width: 221px;
+    height: 221px;
+}
+
+.produtos-erros img {
+    width: 220px;
+    height: 220px;
+}
+
+.centralizar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.width1440{
+    width: 1440px;
+
+}
