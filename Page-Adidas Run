@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>270 Travis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="larguraPadrao">
+            <div id="navPrincipal">
+                <div id="navImg">
+                    <img src="imagens/Sem_titulo1521.png">
+                </div>
+                <div id="navSearch">
+                    <input type="search" placeholder="O que você procura ?">
+
+                </div>
+                <div id="navButtons">
+
+                    <button>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <p> Entrar </p>
+                    </button>
+
+                </div>
+            </div>
+            <div id="navLinks">
+                <ul>
+                    <li> <a href="#"> Home </a></li>
+                    <li> <a href="#"> Tênis </a></li>
+                    <li> <a href="#"> Roupas </a></li>
+                    <li> <a href="#"> Acessórios </a></li>
+                    <li> <a href="#"> Sales </a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="divisaoPageProduto">
+        <div class="geralProduto">
+            <div class="imagemProduto">
+                <img id="fotoProduto" src="imagens/tenis/nike-x-travis-scott-air-max-270-cactus-trails-release-date.jpg">
+                <br>
+                <br>
+                <h2> LOJAS DISPONIVEIS </h2>
+                <br>
+                <div class="imagemLojas">
+                    <img src="imagens/pineapple logo.png">
+
+                </div>
+            </div>
+
+            <div class="infoProduto">
+                <h2> NIKE x TRAVIS SCOTT - Air Max 270 React ENG "Cactus Trails" </h2>
+                <br>
+                <h3> R$ 2.280,00 ~ 2.500,00</h3>
+                <br>
+                <br>
+                <img src="imagens/Nike-Logo.png">
+                <br>
+                <br>
+                <p>As Nike x Travis Scott Air Max 270 "Cactus Trails" canalizam a forma como o Travis Scott foge à realidade através da sua própria imaginação para um mundo em que ele e os seus fãs se perdem. O design combina uma atitude e uma estética dos
+                    anos 90 com uma sensação de desgaste. Os tons de castanho, Tan e laranja na primeira camada pintada da espuma exposta derivam de um estilo inspirado em trilhos de sobreposições com uma paleta de cores semelhante à afinidade do Travis
+                    Scott pelo estilo vintage. A sola intermédia combina a espuma Nike React com uma unidade Air de 270 graus no calcanhar. As ondas na parte superior funcionam como uma extensão das ranhuras incorporadas na sola intermédia, enquanto a
+                    lã cardada no tornozelo proporciona um toque macio e confortável. O logótipo Cactus Jack surge na presilha do calcanhar e na palmilha, enquanto um bloqueio dos atacadores colorido e retro permanece na presilha da língua. Versões para
+                    adulto, pré-escolar e para bebé disponíveis.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+</body>
+
+</html>
